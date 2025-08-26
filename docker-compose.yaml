@@ -5,7 +5,7 @@ services:
     #build:
       #context: ..
       #dockerfile: Dockerfile
-    image: supreecha2003/postgresweb:1.0.5
+    image: supreecha2003/postgresweb:latest
     container_name: web
     environment:
       - DB_HOST=db
