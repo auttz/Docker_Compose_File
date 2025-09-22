@@ -2,10 +2,10 @@ name: myproject
 
 services:
   web:
-    build:
-      context: ..
-      dockerfile: Dockerfile
-    #image: supreecha2003/postgresweb:latest
+    #build:
+      #context: ..
+      #dockerfile: Dockerfile
+    image: supreecha2003/postgresweb:latest
     container_name: web
     environment:
       - DB_HOST=db
